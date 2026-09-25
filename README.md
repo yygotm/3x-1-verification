@@ -3,8 +3,9 @@
 This repository provides `verify2.c`, a computational verifier designed to check
 large ranges of the positive 3x−1 map efficiently. It uses affine class bounds and
 reverse-path pruning to avoid tracing every starting value individually. The
-author's production run with this verifier covered every 1 ≤ n < 2^48; that range
-demonstrates the tool's use and extends the 2^44 range reported by Cochin (2026).
+author's production runs with this verifier collectively covered every
+1 ≤ n < 2^50: a full run over 1 ≤ n < 2^48 followed by an extension run over
+2^48 ≤ n < 2^50. This extends the 2^44 range reported by Cochin (2026).
 
 ## Background
 
@@ -15,7 +16,7 @@ Cochin, P. (2026), "Lower Bounds for Cycle Lengths in the Juggler Map"
 (Zenodo, DOI: 10.5281/zenodo.22865237, v1.0.2), reports in Remark 5.20 (p. 64)
 the author's own verification that every 1 ≤ n < 2^44 reaches 1, 5 or 17. The paper
 states that its author found no published verification floor for the 3x−1 map. This
-repository reports an independent extension to all 1 ≤ n < 2^48. A broader
+repository reports an independent extension to all 1 ≤ n < 2^50. A broader
 prior-work search is in progress.
 
 ## Verifier design and performance
@@ -41,8 +42,13 @@ prior-work search is in progress.
 | 2^44 | done | independently reproduces Cochin (2026) |
 | 2^46 | done | verified with `verify2.c` in this repo |
 | 2^48 | done | AMD full run with `verify2.c`: chunks=2563/2563, maxsteps=734 at n=105343905708261 ([log](results/amd-ryzen7-5700x-2p48.txt)) |
+| 2^50 | done | AMD extension run over [2^48, 2^50): chunks=2563/2563, fails=0, maxsteps=838 at n=588127695714561 ([log](results/amd-ryzen7-5700x-2p48-to-2p50.txt)) |
 
-No counterexample (an n that fails to reach any of the three cycles) has been found.
+The full 2^48 run and the extension run together account for all
+562,949,953,421,312 odd starting values below 2^50. Run parameters and SHA-256
+hashes are recorded in [the verification manifest](results/amd-verification.json).
+No counterexample (an n that fails to reach any of the three cycles) was found
+in this finite range.
 
 ## Correctness checks
 
@@ -98,12 +104,14 @@ the content.
 
 ## Citation
 
-The archived v0.1.0 release has DOI
-[10.5281/zenodo.22962037](https://doi.org/10.5281/zenodo.22962037).
+The archived v0.2.0 release has DOI
+[10.5281/zenodo.22968237](https://doi.org/10.5281/zenodo.22968237).
 To cite this version:
 
 > Shimizu, H. (2026). *Efficient computational verifier for the 3x-1 map*
-> (Version 0.1.0) [Computer software]. Zenodo.
-> https://doi.org/10.5281/zenodo.22962037
+> (Version 0.2.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22968237
 
 Source code: https://github.com/yygotm/3x-1-verification
+
+Previous release (v0.1.0): https://doi.org/10.5281/zenodo.22962037

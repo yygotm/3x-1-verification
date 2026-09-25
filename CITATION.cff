@@ -5,7 +5,8 @@ type: software
 authors:
   - family-names: "Shimizu"
     given-names: "Hirotaka"
-version: "0.1.0"
+version: "0.2.0"
+doi: "10.5281/zenodo.22968237"
 license: "MIT"
 repository-code: "https://github.com/yygotm/3x-1-verification"
 keywords:

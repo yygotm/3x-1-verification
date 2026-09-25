@@ -42,6 +42,25 @@
       "sum_chunk_seconds": 1790.851,
       "log": "amd-ryzen7-5700x-2p48.txt",
       "log_sha256": "2df72b23648b28b9283f5c547e731621243a89d8f0149b6a25898fae8ba30b91"
+    },
+    {
+      "lo": 281474976710656,
+      "hi_exclusive": 1125899906842624,
+      "mode": 0,
+      "F": 26,
+      "L": 10,
+      "LEAFN": 16,
+      "checkpoint_chunk": 256,
+      "exit_code": 0,
+      "completed_chunks": 2563,
+      "odd_starts": 422212465065984,
+      "accounted_odd_starts": 422212465065984,
+      "fails": 0,
+      "maxsteps": 838,
+      "argmax": 588127695714561,
+      "sum_chunk_seconds": 6654.788,
+      "log": "amd-ryzen7-5700x-2p48-to-2p50.txt",
+      "log_sha256": "3e6cd429926de70125373b3ddaa39935eefcc9be4af6c61a7a186912dba14548"
     }
   ]
 }
