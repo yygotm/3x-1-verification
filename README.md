@@ -84,19 +84,26 @@ of the decision logic).
 
 ## License
 
-Unless otherwise noted, the code, documentation, and result files in this repository
-are licensed under the MIT License (see `LICENSE`).
+The code, documentation, and result files in this repository are licensed under
+the [MIT License](LICENSE).
 
 ## Acknowledgments
 
 Development, code review, and verification tooling were carried out with the
 assistance of Claude (Anthropic; Claude Fable 5.1, Claude Opus 5.5, and Claude
-Sonnet 5, across different stages of the work). The author directed the
-methodology, reviewed all results, and is solely responsible for the content.
+Sonnet 5, across different stages of the work). Documentation, public release
+preparation, and archive checks were assisted by Codex (OpenAI). The author
+directed the methodology, reviewed all results, and is solely responsible for
+the content.
 
 ## Citation
 
-See `CITATION.cff`. In brief:
+The archived v0.1.0 release has DOI
+[10.5281/zenodo.22962037](https://doi.org/10.5281/zenodo.22962037).
+To cite this version:
 
 > Shimizu, H. (2026). *Efficient computational verifier for the 3x-1 map*
-> (Version 0.1.0) [Software]. Source code: https://github.com/yygotm/3x-1-verification
+> (Version 0.1.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22962037
+
+Source code: https://github.com/yygotm/3x-1-verification
