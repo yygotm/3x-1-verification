@@ -1,0 +1,47 @@
+{
+  "processor": "AMD Ryzen 7 5700X",
+  "environment": "Docker Desktop Linux engine, GCC 14 Bookworm",
+  "source_sha256": "67f6b14ac9538aba5e72a8a7d51856e114da97cbfac8e01f8747c06244818e63",
+  "docker_image_id": "sha256:fde54a7328d6517ee95557e353b157b09637ea2a0628ee2ff509779a8114b3df",
+  "build_command": "gcc -O3 -fopenmp -Wall -o /usr/local/bin/verify2 /src/verify2.c -lm",
+  "runs": [
+    {
+      "lo": 1,
+      "hi_exclusive": 17592186044416,
+      "mode": 0,
+      "F": 26,
+      "L": 10,
+      "LEAFN": 16,
+      "checkpoint_chunk": 256,
+      "exit_code": 0,
+      "completed_chunks": 2563,
+      "odd_starts": 8796093022208,
+      "accounted_odd_starts": 8796093022208,
+      "fails": 0,
+      "maxsteps": 700,
+      "argmax": 5774140495781,
+      "sum_chunk_seconds": 135.714,
+      "log": "amd-ryzen7-5700x-2p44.txt",
+      "log_sha256": "4d695eaf144ef33629d008010a963edd14fefbd250c110fafd1db4d6c2dbe15c"
+    },
+    {
+      "lo": 1,
+      "hi_exclusive": 281474976710656,
+      "mode": 0,
+      "F": 26,
+      "L": 10,
+      "LEAFN": 16,
+      "checkpoint_chunk": 256,
+      "exit_code": 0,
+      "completed_chunks": 2563,
+      "odd_starts": 140737488355328,
+      "accounted_odd_starts": 140737488355328,
+      "fails": 0,
+      "maxsteps": 734,
+      "argmax": 105343905708261,
+      "sum_chunk_seconds": 1790.851,
+      "log": "amd-ryzen7-5700x-2p48.txt",
+      "log_sha256": "2df72b23648b28b9283f5c547e731621243a89d8f0149b6a25898fae8ba30b91"
+    }
+  ]
+}

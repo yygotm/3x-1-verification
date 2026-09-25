@@ -1,0 +1,41 @@
+{
+  "kind": "historical_full_range_speed_comparison",
+  "range": {
+    "lo": 1099511627776,
+    "hi_exclusive": 4398046511104
+  },
+  "old": {
+    "source": "verify.c",
+    "command": "./verify 28 4096 16384 256 bench_a_old.log",
+    "log": "intel-verify-2p40-2p42.txt",
+    "log_sha256": "ee66de12a3da7be12c5ae5ae0925075f887c4cefe59de8c0587647a65388efd4",
+    "completed_chunks": 48,
+    "sum_chunk_seconds": 1737.64,
+    "rate_n_per_s": 1898284388,
+    "fastest_chunk_reported_rate_n_per_s": 2490000000.0,
+    "fails": 0
+  },
+  "new": {
+    "source": "verify2.c",
+    "source_md5_recorded_in_log": "ca4d20045a76ec1b37d15557d47f108d",
+    "binary_md5_recorded_in_log": "af5f5feaaa62994de89ffc8dff5c6fc7",
+    "command": "./verify2 1099511627776 4398046511104 0 22 10 16",
+    "build_command": "gcc -O3 -march=native -fopenmp -Wall -o verify2 verify2.c -lm",
+    "log": "intel-verify2-2p40-2p42.txt",
+    "log_sha256": "4bf6bef945bd560388f7f90624aa69355c14ad173b1901aab462766fe26e0c33",
+    "seconds": 48.305,
+    "reported_rate_n_per_s": 68290000000.0,
+    "accounted": "OK",
+    "fails": 0,
+    "bench_stride": "unset"
+  },
+  "ratios": {
+    "same_full_range_elapsed_time": 35.97,
+    "new_full_range_rate_vs_old_fastest_chunk_rate": 27.43
+  },
+  "limitations": [
+    "Historical benchmark used a pre-release verify2.c source hash; the exact current release source was not timed in this pair.",
+    "The 27.4x comparison uses the old verifier's fastest single chunk as denominator; the 36.0x comparison uses its aggregate range time.",
+    "Background CPU load was not controlled between runs."
+  ]
+}

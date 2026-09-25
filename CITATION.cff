@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Efficient computational verifier for the 3x-1 map"
+type: software
+authors:
+  - family-names: "Shimizu"
+    given-names: "Hirotaka"
+version: "0.1.0"
+license: "MIT"
+repository-code: "https://github.com/yygotm/3x-1-verification"
+keywords:
+  - 3x-1 problem
+  - Collatz-type map
+  - computational verification
+references:
+  - type: article
+    title: "Lower Bounds for Cycle Lengths in the Juggler Map"
+    authors:
+      - family-names: Cochin
+        given-names: Philippe
+    doi: "10.5281/zenodo.22865237"
+    version: "1.0.2"
+    year: 2026
+    notes: "Remark 5.20 of this paper reports the author's own verification of the 3x-1 map up to 2^44, which this work extends."

@@ -1,0 +1,37 @@
+# compiled binaries (source files of the same name are tracked; the built
+# executables are not, since anyone can rebuild them with the Docker command
+# in the README)
+/verify
+/verify2
+/verify2_nocm
+/brute
+/sample
+/measure
+/measure2
+/test_cm
+mut_*
+/test_cm_mut_*
+/t3dir/
+*.o
+*.exe
+*.bin-*
+*.chk
+*.log
+*.out
+*.err
+/t3.tmp
+/t3.full
+
+# intermediate/backup source versions kept only in the working copy, not here
+*.v[0-9]*.c
+*.bak
+*.bak-*
+
+# internal working notes and review reports
+HANDOFF_FOR_GPT_REVIEW.md
+NOTES.md
+docs/review/
+
+# editor/OS cruft
+.DS_Store
+Thumbs.db
