@@ -27,7 +27,7 @@ prior-work search is in progress.
 - `verify2.c` (faster version): odd numbers are split into classes on a binary tree.
   The relevant bounds are affine (degree-1) functions of the position within a
   class, so checking both interval endpoints decides the whole class.
-  A 3-adic reverse-path technique (P) is combined in for early pruning. Roughly
+  A 3-adic reverse-path technique (P) is combined in for early pruning.
   In a historical full (non-strided) run over [2^40, 2^42), it was 36.0x faster
   than `verify.c` by elapsed time; comparing its full-range rate with the old
   run's fastest chunk gives 27.4x ([benchmark data](results/intel-benchmark-2p40-2p42.json)).
@@ -84,8 +84,8 @@ of the decision logic).
 
 ## License
 
-Code (`*.c`, `*.sh`) is released under the MIT License (see `LICENSE`).
-Text and data (this README, logs) are released under CC-BY 4.0.
+Unless otherwise noted, the code, documentation, and result files in this repository
+are licensed under the MIT License (see `LICENSE`).
 
 ## Acknowledgments
 
