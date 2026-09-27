@@ -1,3 +1,19 @@
+# v0.3.1 — Citation metadata correction
+
+This documentation-only patch supplies the v0.3.1 Zenodo DOI in
+README.md and CITATION.cff, records the published v0.3.0 DOI separately, and
+replaces the outdated statement that the v0.3.0 DOI had not been assigned.
+
+- v0.3.1 version DOI: https://doi.org/10.5281/zenodo.22994318
+- v0.3.0 published version DOI: https://doi.org/10.5281/zenodo.22993052
+- All-versions DOI: https://doi.org/10.5281/zenodo.22962036
+
+No verifier implementation, build procedure, validation result or raw
+measurement record is changed. No new computation or performance measurement
+was performed for this patch. Verification coverage remains 1 <= n < 2^50.
+
+## v0.3.0 implementation and measurement record
+
 # v0.3.0 — Optional AMD HIP GPU backend
 
 This release adds GPU tracing of leaf arithmetic-progression descriptors, GPU
@@ -34,4 +50,4 @@ does not prove the 3x-1 conjecture and does not claim verification to 2^52.
 
 See [GPU build and run instructions](https://github.com/yygotm/3x-1-verification/tree/v0.3.0/gpu)
 and [measurement evidence](https://github.com/yygotm/3x-1-verification/tree/v0.3.0/results/v0.3.0).
-No new Zenodo DOI is assigned in this GitHub draft.
+The v0.3.0 Zenodo archive is https://doi.org/10.5281/zenodo.22993052.

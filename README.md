@@ -7,6 +7,9 @@ author's production runs with this verifier collectively covered every
 1 ≤ n < 2^50: a full run over 1 ≤ n < 2^48 followed by an extension run over
 2^48 ≤ n < 2^50. This extends the 2^44 range reported by Cochin (2026).
 
+Version 0.3.1 updates citation metadata only. Verifier sources and measurement
+records are unchanged from v0.3.0.
+
 ## Background
 
 For the 3x−1 map, odd n advances via C(n) = (3n−1)/2 and even n is halved. The
@@ -123,17 +126,19 @@ the content.
 
 ## Citation
 
-The archived v0.2.0 release has DOI
-[10.5281/zenodo.22968237](https://doi.org/10.5281/zenodo.22968237).
-To cite the archived v0.2.0 version:
+The v0.3.1 release has Zenodo DOI
+[10.5281/zenodo.22994318](https://doi.org/10.5281/zenodo.22994318).
+To cite this version:
 
 > Shimizu, H. (2026). *Efficient computational verifier for the 3x-1 map*
-> (Version 0.2.0) [Computer software]. Zenodo.
-> https://doi.org/10.5281/zenodo.22968237
+> (Version 0.3.1) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22994318
 
-For v0.3.0, use the version metadata in `CITATION.cff` and the GitHub release.
-A v0.3.0 Zenodo DOI has not yet been assigned.
+All versions: https://doi.org/10.5281/zenodo.22962036
 
 Source code: https://github.com/yygotm/3x-1-verification
 
-Previous release (v0.1.0): https://doi.org/10.5281/zenodo.22962037
+Previous releases:
+- v0.3.0: https://doi.org/10.5281/zenodo.22993052
+- v0.2.0: https://doi.org/10.5281/zenodo.22968237
+- v0.1.0: https://doi.org/10.5281/zenodo.22962037
