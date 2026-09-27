@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "runtime_source_hash_checks": 11,
+  "archival_source_hash_checks": 15,
+  "production_audit_matches": true,
+  "production_exit_code": 0,
+  "benchmark_validated": true,
+  "production_auditor_tests": 8,
+  "harness_tests_normal": 16,
+  "harness_tests_optimized": 16,
+  "hip_build_success": true,
+  "checkpoint_sanitizers": {
+    "valid": 1,
+    "rejected": 12
+  },
+  "gpu_runtime_remeasured": false,
+  "root_cpu_reference_unchanged": true,
+  "resolved_preparation_failures": [
+    "Sandbox Windows tempfile/WSL access denied; checks succeeded with approved WSL execution.",
+    "Initial shell wrapper expanded PATH without quoting; replaced by a script file.",
+    "Standalone sanitizer link omitted libm; corrected with -lm and -fopenmp."
+  ]
+}

@@ -1,0 +1,3 @@
+SKIP_T=28
+DESC_INIT capacity=33 producers=1 streams=2 mode=2 pinned_bytes=55024 seconds=0.708661966
+DESC fallback before completion

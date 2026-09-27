@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "lo": 281474976710656,
+  "hi": 1125899906842624,
+  "nfront": 656074,
+  "chunks": 161,
+  "odd": 422212465065984,
+  "statistics": {
+    "nodes": 374092691993,
+    "dropI": 399935322533772,
+    "dropP": 20365364877108,
+    "leafn": 1911777655104,
+    "skipn": 888238890655,
+    "traced": 1023538764449,
+    "stopP": 58343145758,
+    "fails": 0
+  },
+  "maxsteps": 838,
+  "argmax": 588127695714561,
+  "compute_seconds": 9557.146301269995,
+  "argmax_certificate": {
+    "n": 588127695714561,
+    "steps": 838,
+    "value_after_steps": "2402150792990938",
+    "certificate_I": false,
+    "certificate_P": true,
+    "ancestor": "421776819619809",
+    "inverse_path": "OEOOOOO"
+  },
+  "wall_seconds": 9560.908480372,
+  "unity_at_start": false
+}

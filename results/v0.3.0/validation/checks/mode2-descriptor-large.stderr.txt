@@ -1,0 +1,4 @@
+SKIP_T=28
+DESC_INIT capacity=131072 producers=1 streams=2 mode=2 pinned_bytes=218103920 seconds=0.664030933
+LO=17592118935552 HI=17592186044416 mode=2 F=26 L=10 LEAFN=16 front=63771 setup=0.74s
+DESC_SUMMARY calls=1 descriptors=52880 leaves=846080 traced=452954 skipped=393126 fallback=548 h2d_bytes=3384320 d2h_bytes=20319128 wait_seconds=0.002504406 init_seconds=0.664030933

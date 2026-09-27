@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "argmax-independent.py": "2142cc0692f701edae4aefd9aff60fe9a406f2f9c0191d01d76cf562f9bc0a95",
+    "audit.py": "edf4595041eed5c3b2a4b0ea9d7409ed8cfa078cc10618d6fd314e2f70fda17f",
+    "baseline-steady.c": "d0c10d704374a8fabd8c87b31431e0d89b5b0eb32f9b56f97d1b3e12b14a10a1",
+    "baseline.c": "5e85df93762824248f67938001a920a1ddb3fc289cb6479a6373f88cc6e9b63b",
+    "checkpoint-parser.h": "a145bab7694bd237b226e3b59425a2adc547529ebd9457ab2fe67e6e1e76728f",
+    "descriptor-api.h": "2f647b36aca396985b11cb2f8bbefe12f4b87e7825880a5549867e8304f77245",
+    "descriptor-backend-v1.cpp": "78b7675b5098e0e966a6ea773cf8721643a30645367619f7f3cbd3e311b9c898",
+    "descriptor-backend.cpp": "4e30df8462b5e7e36ff812e9ce4899632f9658209d281d437d616a981749f43b",
+    "descriptor-large-steady.c": "01090cb01981800f3cd7a25392ef2bf00cd4056a36043f1670281225e1d6a8ca",
+    "descriptor-large.c": "9162cd8d665073382e424a0b9acf756627eed438beb0d4921ea627fdf4ae5e77",
+    "descriptor-steady.c": "6845b328aeba4d76c8a02fa776617a013ec27c570eff7ac744bd093e0162b0c1",
+    "descriptor.c": "05d944f7809ae1ef374df52f1a116b251e87059c29ea6959006c919bfefede16",
+    "extra-tests.py": "8eaf12dc0bc8be4c34cd2a6e2526f72b93c055f1ad8d71f933fd0873be002143",
+    "final-check.py": "7353b076616fb7688c5256365ccc17b8b0d7478dd39104a8f37408f3384d429a",
+    "harness.py": "267e535fa9f22dd995ba84af686ba856448f613d9bb31c5afb6a4eaf0f173ca7",
+    "large.py": "f982ba3df38d5ccc8e2252ace8e1588d8e7adc332e8638de16b1cd9faa8879b3",
+    "measure-fixed.py": "3c77239faa5d96f7ef3d4e3ca53efb18f294bfd5aa9b91cd6fa371f880fda250",
+    "prepare.py": "1abb2b6723598f27c4a1fa160678753114e4b939683211630781962ade5c5b71",
+    "profile-backend.cpp": "fb36cde0e521b2da175ae18f453758d30d868cd9ca323c801baca79799bb4db7",
+    "profile-front.c": "ab576e551e395f97dda675e054a20ef2b25070f85d28fdadfab99ba77d041ddb",
+    "profile.py": "d9b550ad0b43657c043b8b6306ab05d6d680a4875f492e2075233b1f33795cfa",
+    "regions.py": "306654429cef195317b1af3b709a0afd3e0956ae5ee9b740962b9fc36f967741",
+    "repair_sources.py": "4dbe10a67ab01944609745031b04d9bac29638d913b34a4aa11dce4beac951f8",
+    "run.py": "2495c6ecada645c42146b1dc32c8c60a858f87d28d3752cb3c75223bfcb0ea69",
+    "setup-records.py": "b1d24ec378c449d3c71f1110fe52319940decdce70c1786b1f009e53cec80b65",
+    "test-backend-final.c": "42b4ce35bce05394934264d8fe99e0c1f32be45b1e91149a4ae250014331a289",
+    "test-backend.c": "f0cc901a11cf20c3705b8c04ce5f207eed5717845c7bb3fb10c0306f831cb0da",
+    "test-checkpoint.c": "49936ee9c7895c231e98ed0a996b012498328c7dc573f43e7e565c98616c22a6",
+    "test-repairs.py": "a3700388a74d3f400fd648e267982d08fd2e067147d4d022d0420f4ecadc3270",
+    "validate-fixes.py": "2ef27d876f906d0e5454009b29d04c59822041fe8f65e2ce4bd11f7b67de4a28",
+    "validate_runs.py": "e09ca37992890da777116c862c76922e29b216c35adff1ef85c70bee3c987c17",
+    "write-report.py": "8c6581d57f819a9fd83700aa9e43c471243c626045047479f623da460c3670d6"
+  },
+  "backend_object": {
+    "path": "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/backend.o",
+    "sha256": "6a186b34fb51047a401a5781c7a7f684929dd887b9569a7739a8ef0d78002cd5"
+  },
+  "artifacts": {
+    "baseline-steady": "7533c002fe2f484d5797d5897684c8590e1c40913fe39facf525649fa2459884",
+    "baseline-steady.o": "040cc02a085ff64970483492423bc963e29e4a9d97ab87d060f74e7bea92405a",
+    "descriptor-large-steady": "aad816f4e3f41d790d0270c1c9a6ff73751b99afca5a20eb3099a49752d5301d",
+    "descriptor-large-steady.o": "2faa1b71f273ada2b9eeb2f2adccba8d44e20bb1155c66dddf08cefa352e6123"
+  }
+}

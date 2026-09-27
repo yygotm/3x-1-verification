@@ -1,3 +1,13 @@
 *.sh text eol=lf
 *.c text eol=lf
 results/*.txt text eol=lf
+
+# Preserve measured runtime sources and archived evidence byte-for-byte.
+results/v0.3.0/** -text -whitespace
+
+gpu/*.c -text whitespace=cr-at-eol
+gpu/*.cpp -text whitespace=cr-at-eol
+gpu/*.h -text whitespace=cr-at-eol
+gpu/*.py text eol=lf
+gpu/README.md text eol=lf
+RELEASE_NOTES.md text eol=lf

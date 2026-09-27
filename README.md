@@ -35,6 +35,25 @@ prior-work search is in progress.
   This benchmark used a pre-release build of `verify2.c`, and background CPU
   load was not controlled between runs.
 
+## v0.3.0: optional GPU backend
+
+An optional AMD HIP backend keeps the class tree on the CPU and sends leaf
+descriptors to the GPU for expansion, trajectory tracing and reduction. The
+original CPU verifier remains available. Build instructions, resource requirements
+and tested hardware are in [gpu/README.md](gpu/README.md).
+
+The GPU version independently repeated `[2^48, 2^50)` with 8 CPU cores / 16
+threads and an RX 9070 XT: exit 0, 161/161 chunks, fails=0, and exactly
+422,212,465,065,984 odd starts accounted for. Wall time including initialization
+was 2 h 39 min 20.908 s. In a separate interleaved steady benchmark over
+`[2^48-2^40, 2^48)`, median CPU/GPU times were 19.856 / 12.438 s (1.596x).
+This ratio applies to that partial interval; a same-conditions whole-range
+CPU/GPU ratio was not measured. Full evidence is in
+[results/v0.3.0](results/v0.3.0/README.md).
+
+This release adds a GPU implementation and a repeated verification of the
+existing upper interval. It does not extend the demonstrated range to 2^52.
+
 ## Demonstrated verification range
 
 | N | Status | Notes |
@@ -106,11 +125,14 @@ the content.
 
 The archived v0.2.0 release has DOI
 [10.5281/zenodo.22968237](https://doi.org/10.5281/zenodo.22968237).
-To cite this version:
+To cite the archived v0.2.0 version:
 
 > Shimizu, H. (2026). *Efficient computational verifier for the 3x-1 map*
 > (Version 0.2.0) [Computer software]. Zenodo.
 > https://doi.org/10.5281/zenodo.22968237
+
+For v0.3.0, use the version metadata in `CITATION.cff` and the GitHub release.
+A v0.3.0 Zenodo DOI has not yet been assigned.
 
 Source code: https://github.com/yygotm/3x-1-verification
 

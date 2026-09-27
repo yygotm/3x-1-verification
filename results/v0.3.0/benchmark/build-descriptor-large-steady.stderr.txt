@@ -1,0 +1,7 @@
+/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c: In function ‘desc_flush’:
+/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c:338:2: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  338 |  if(!desc_count)return;int k=desc_active;desc_counts[k]=desc_count;desc_expected[k]=desc_leaves;desc_busy[k]=1;
+      |  ^~
+/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c:338:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  338 |  if(!desc_count)return;int k=desc_active;desc_counts[k]=desc_count;desc_expected[k]=desc_leaves;desc_busy[k]=1;
+      |                        ^~~

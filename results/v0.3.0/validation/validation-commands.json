@@ -1,0 +1,229 @@
+[
+  {
+    "label": "python-tests",
+    "command": [
+      "python3",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/test-repairs.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "python-tests-optimized",
+    "command": [
+      "python3",
+      "-O",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/test-repairs.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "reject-descriptor-lc6",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=6",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-lc6",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=6",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-steady-lc6",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=6",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-steady-lc6",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=6",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-lc12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-lc12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-steady-lc12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-steady-lc12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DLC=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-jk9",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=9",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-jk9",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=9",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-steady-jk9",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=9",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-steady-jk9",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=9",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-jk12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-jk12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-steady-jk12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "reject-descriptor-large-steady-jk12",
+    "command": [
+      "gcc",
+      "-fopenmp",
+      "-fsyntax-only",
+      "-DJK=12",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c"
+    ],
+    "exit_code": 1
+  },
+  {
+    "label": "checkpoint-build",
+    "command": [
+      "gcc",
+      "-O1",
+      "-g",
+      "-fsanitize=address,undefined",
+      "-fno-omit-frame-pointer",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fopenmp",
+      "-Wl,--gc-sections",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/test-checkpoint.c",
+      "-lm",
+      "-o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/test-checkpoint"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "checkpoint-test",
+    "command": [
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/test-checkpoint"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "final-check",
+    "command": [
+      "python3",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/final-check.py"
+    ],
+    "exit_code": 0
+  }
+]

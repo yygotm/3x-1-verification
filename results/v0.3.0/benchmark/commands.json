@@ -1,0 +1,61 @@
+[
+  {
+    "label": "build-baseline-steady",
+    "command": [
+      "gcc",
+      "-O3",
+      "-fopenmp",
+      "-Wall",
+      "-c",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/baseline-steady.c",
+      "-o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/baseline-steady.o"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.7068158250003762
+  },
+  {
+    "label": "link-baseline-steady",
+    "command": [
+      "gcc",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/baseline-steady.o",
+      "-fopenmp",
+      "-pthread",
+      "-lm",
+      "-o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/baseline-steady"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.3199334260007163
+  },
+  {
+    "label": "build-descriptor-large-steady",
+    "command": [
+      "gcc",
+      "-O3",
+      "-fopenmp",
+      "-Wall",
+      "-c",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-large-steady.c",
+      "-o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/descriptor-large-steady.o"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.787279407000824
+  },
+  {
+    "label": "link-descriptor-large-steady",
+    "command": [
+      "hipcc",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/descriptor-large-steady.o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/backend.o",
+      "-fopenmp",
+      "-pthread",
+      "-lm",
+      "-o",
+      "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/descriptor-large-steady"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.4487225169996236
+  }
+]

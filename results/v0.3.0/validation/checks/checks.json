@@ -1,0 +1,362 @@
+{
+  "complete": true,
+  "binary_directory": "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4",
+  "checks": [
+    {
+      "label": "independent-backend",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.7307409690001805
+    },
+    {
+      "case": "zero",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "zero"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6772876370014274
+    },
+    {
+      "case": "oversize",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "oversize"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.692103164999935
+    },
+    {
+      "case": "free-wait",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "free-wait"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.706241546999081
+    },
+    {
+      "case": "bad-slot",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "bad-slot"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6732116929997574
+    },
+    {
+      "case": "free-release",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "free-release"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.7740186439987156
+    },
+    {
+      "case": "reinit",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "reinit"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.7481303169988678
+    },
+    {
+      "case": "bad-descriptor",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "bad-descriptor"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6794439189998229
+    },
+    {
+      "case": "before-init",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "before-init"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.03904042199974356
+    },
+    {
+      "case": "after-input",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-input"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6891406860013376
+    },
+    {
+      "case": "after-submit",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-submit"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.759555566999552
+    },
+    {
+      "case": "after-wait",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-wait"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6917347230009909
+    },
+    {
+      "case": "after-fallback",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-fallback"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6601850999995804
+    },
+    {
+      "case": "after-audit",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-audit"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6767061249993276
+    },
+    {
+      "case": "after-release",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "after-release"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6685393530005967
+    },
+    {
+      "case": "free-fallback",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "free-fallback"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.8388360389999434
+    },
+    {
+      "case": "free-audit",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "free-audit"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.788924627000597
+    },
+    {
+      "case": "finish-busy",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "finish-busy"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.6798597029992379
+    },
+    {
+      "case": "invalid-mode",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "invalid-mode"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.11071085600087827
+    },
+    {
+      "case": "null-table",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "null-table"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.10880603800069366
+    },
+    {
+      "case": "pinned-budget",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/test-backend-final",
+        "pinned-budget"
+      ],
+      "exit_code": 4,
+      "wall_seconds": 0.09779338100088353
+    },
+    {
+      "label": "mode2-descriptor",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor",
+        "17592118935552",
+        "17592186044416",
+        "2",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.3771278509993863
+    },
+    {
+      "label": "mode2-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "17592118935552",
+        "17592186044416",
+        "2",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.4405025589985598
+    },
+    {
+      "label": "small-baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/baseline",
+        "1",
+        "4097",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.09342645600008836
+    },
+    {
+      "label": "small-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "1",
+        "4097",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.515462232000573
+    },
+    {
+      "label": "odd-baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/baseline",
+        "17",
+        "8194",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.08998173399959342
+    },
+    {
+      "label": "odd-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "17",
+        "8194",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.084052034000706
+    },
+    {
+      "label": "upper-baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/baseline",
+        "4611686018427386879",
+        "4611686018427387903",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.0999685379993025
+    },
+    {
+      "label": "upper-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "4611686018427386879",
+        "4611686018427387903",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.0120863510001072
+    },
+    {
+      "label": "strict-baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/baseline",
+        "1",
+        "65537",
+        "1",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.10507458699976269
+    },
+    {
+      "label": "strict-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "1",
+        "65537",
+        "1",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.09800026800076012
+    },
+    {
+      "label": "whole36-baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/baseline",
+        "281406257233920",
+        "281474976710656",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.7103771380006947
+    },
+    {
+      "label": "whole36-descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+        "281406257233920",
+        "281474976710656",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.5584303720006574
+    }
+  ]
+}

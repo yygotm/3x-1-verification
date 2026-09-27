@@ -35,3 +35,9 @@ docs/review/
 # editor/OS cruft
 .DS_Store
 Thumbs.db
+
+/gpu/build/
+/gpu/checks-*/
+/gpu/performance-*/
+**/__pycache__/
+!results/v0.3.0/production/production.log

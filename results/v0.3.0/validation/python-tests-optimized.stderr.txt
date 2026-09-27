@@ -1,0 +1,21 @@
+test_duplicate (__main__.AuditTests.test_duplicate) ... ok
+test_failed (__main__.AuditTests.test_failed) ... ok
+test_failed_launch (__main__.AuditTests.test_failed_launch) ... ok
+test_incomplete (__main__.AuditTests.test_incomplete) ... ok
+test_missing (__main__.AuditTests.test_missing) ... ok
+test_missing_launch (__main__.AuditTests.test_missing_launch) ... ok
+test_nan (__main__.AuditTests.test_nan) ... ok
+test_old_list_without_completion (__main__.AuditTests.test_old_list_without_completion) ... ok
+test_stats (__main__.AuditTests.test_stats) ... ok
+test_valid (__main__.AuditTests.test_valid) ... ok
+test_warmup (__main__.AuditTests.test_warmup) ... ok
+test_eof_cleanup (__main__.HarnessTests.test_eof_cleanup) ... ok
+test_ready_timeout_cleanup (__main__.HarnessTests.test_ready_timeout_cleanup) ... ok
+test_run_timeout_cleanup (__main__.HarnessTests.test_run_timeout_cleanup) ... ok
+test_success (__main__.HarnessTests.test_success) ... ok
+test_rerun_and_tamper (__main__.ManifestTests.test_rerun_and_tamper) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.825s
+
+OK

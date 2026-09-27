@@ -1,0 +1,22 @@
+{
+  "runtime_sources": {
+    "descriptor-large.c": "9162cd8d665073382e424a0b9acf756627eed438beb0d4921ea627fdf4ae5e77",
+    "descriptor-backend.cpp": "4e30df8462b5e7e36ff812e9ce4899632f9658209d281d437d616a981749f43b",
+    "descriptor-api.h": "2f647b36aca396985b11cb2f8bbefe12f4b87e7825880a5549867e8304f77245",
+    "checkpoint-parser.h": "a145bab7694bd237b226e3b59425a2adc547529ebd9457ab2fe67e6e1e76728f",
+    "baseline.c": "5e85df93762824248f67938001a920a1ddb3fc289cb6479a6373f88cc6e9b63b",
+    "baseline-steady.c": "d0c10d704374a8fabd8c87b31431e0d89b5b0eb32f9b56f97d1b3e12b14a10a1",
+    "descriptor.c": "05d944f7809ae1ef374df52f1a116b251e87059c29ea6959006c919bfefede16",
+    "descriptor-steady.c": "6845b328aeba4d76c8a02fa776617a013ec27c570eff7ac744bd093e0162b0c1",
+    "descriptor-large-steady.c": "01090cb01981800f3cd7a25392ef2bf00cd4056a36043f1670281225e1d6a8ca",
+    "test-backend-final.c": "42b4ce35bce05394934264d8fe99e0c1f32be45b1e91149a4ae250014331a289",
+    "test-checkpoint.c": "49936ee9c7895c231e98ed0a996b012498328c7dc573f43e7e565c98616c22a6"
+  },
+  "measured_binary_sha256": "7500a0e00a34855771271fc07a91e8e0464029f0addc40343c2c9c6dbb689fa4",
+  "source_changes": "No changes to measured GPU C/C++ runtime files.",
+  "packaging_changes": [
+    "Standalone production auditor embeds the reviewed ancestor_below function; prints JSON without overwriting audit.json.",
+    "run.py omits legacy generation/build/cold entry points.",
+    "test-repairs.py tests the current backend file rather than its historical predecessor."
+  ]
+}

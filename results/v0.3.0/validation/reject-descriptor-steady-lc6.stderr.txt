@@ -1,0 +1,7 @@
+In file included from /mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c:30:
+/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-api.h:6:2: error: #error GPU descriptor backend requires LC=10
+    6 | #error GPU descriptor backend requires LC=10
+      |  ^~~~~
+/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/descriptor-steady.c:151:2: error: #error GPU descriptor backend requires LC=10 and JK=10
+  151 | #error GPU descriptor backend requires LC=10 and JK=10
+      |  ^~~~~

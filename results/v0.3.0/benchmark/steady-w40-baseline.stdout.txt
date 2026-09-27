@@ -1,0 +1,16 @@
+READY rep=0
+nodes=688019545 dropI=519384860704 dropP=25629838208 leafn=4741114976 skipn=2202776936 traced=2538338040 stopP=49186902 fails=0 maxsteps=561 at n=280462342610241 maxdropdepth=36 time=19.556510040s rate=5.622e+10 n/s
+odd in range=549755813888 accounted(dropI+dropP+leafn)=549755813888 OK
+RUN_DONE rep=0
+READY rep=1
+nodes=688019545 dropI=519384860704 dropP=25629838208 leafn=4741114976 skipn=2202776936 traced=2538338040 stopP=49186902 fails=0 maxsteps=561 at n=280462342610241 maxdropdepth=36 time=19.856478520s rate=5.537e+10 n/s
+odd in range=549755813888 accounted(dropI+dropP+leafn)=549755813888 OK
+RUN_DONE rep=1
+READY rep=2
+nodes=688019545 dropI=519384860704 dropP=25629838208 leafn=4741114976 skipn=2202776936 traced=2538338040 stopP=49186902 fails=0 maxsteps=561 at n=280462342610241 maxdropdepth=36 time=21.354889195s rate=5.149e+10 n/s
+odd in range=549755813888 accounted(dropI+dropP+leafn)=549755813888 OK
+RUN_DONE rep=2
+READY rep=3
+nodes=688019545 dropI=519384860704 dropP=25629838208 leafn=4741114976 skipn=2202776936 traced=2538338040 stopP=49186902 fails=0 maxsteps=561 at n=280462342610241 maxdropdepth=36 time=18.903013223s rate=5.817e+10 n/s
+odd in range=549755813888 accounted(dropI+dropP+leafn)=549755813888 OK
+RUN_DONE rep=3

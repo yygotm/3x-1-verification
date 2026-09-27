@@ -1,0 +1,224 @@
+{
+  "complete": true,
+  "failure": null,
+  "runs": [
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "baseline",
+      "rep": 0,
+      "warmup": true,
+      "program_seconds": 19.55651004,
+      "roundtrip_seconds": 19.561810375000277,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "descriptor-large",
+      "rep": 0,
+      "warmup": true,
+      "program_seconds": 11.868305004,
+      "roundtrip_seconds": 11.872659685001054,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "descriptor-large",
+      "rep": 1,
+      "warmup": false,
+      "program_seconds": 12.4383569,
+      "roundtrip_seconds": 12.448611005000203,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "baseline",
+      "rep": 1,
+      "warmup": false,
+      "program_seconds": 19.85647852,
+      "roundtrip_seconds": 19.8652177820004,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "baseline",
+      "rep": 2,
+      "warmup": false,
+      "program_seconds": 21.354889195,
+      "roundtrip_seconds": 21.35995732400079,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "descriptor-large",
+      "rep": 2,
+      "warmup": false,
+      "program_seconds": 11.75456907,
+      "roundtrip_seconds": 11.760322702999474,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "descriptor-large",
+      "rep": 3,
+      "warmup": false,
+      "program_seconds": 12.956733295,
+      "roundtrip_seconds": 13.0236814710006,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "baseline",
+      "rep": 3,
+      "warmup": false,
+      "program_seconds": 18.903013223,
+      "roundtrip_seconds": 18.906638451000617,
+      "stats": {
+        "nodes": 688019545,
+        "dropI": 519384860704,
+        "dropP": 25629838208,
+        "leafn": 4741114976,
+        "skipn": 2202776936,
+        "traced": 2538338040,
+        "stopP": 49186902,
+        "fails": 0,
+        "maxsteps": 561,
+        "maxdropdepth": 36
+      },
+      "argmax": 280462342610241
+    }
+  ],
+  "launches": [
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "baseline",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/baseline-steady",
+        "280375465082880",
+        "281474976710656",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "pid": 468,
+      "launch_to_ready_seconds": 0.13578004600094573,
+      "exit_code": 0
+    },
+    {
+      "height": 48,
+      "power": 40,
+      "variant": "descriptor-large",
+      "command": [
+        "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he/descriptor-large-steady",
+        "280375465082880",
+        "281474976710656",
+        "0",
+        "26",
+        "10",
+        "16"
+      ],
+      "pid": 470,
+      "launch_to_ready_seconds": 2.480712250999204,
+      "exit_code": 0
+    }
+  ],
+  "environment": {
+    "OMP_NUM_THREADS": "16",
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_PROC_BIND": "FALSE",
+    "LD_LIBRARY_PATH": "/opt/rocm/core-10.0/lib:/opt/rocm/lib:/usr/lib/wsl/lib"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "sources": {
+    "baseline-steady.c": "d0c10d704374a8fabd8c87b31431e0d89b5b0eb32f9b56f97d1b3e12b14a10a1",
+    "baseline.c": "5e85df93762824248f67938001a920a1ddb3fc289cb6479a6373f88cc6e9b63b",
+    "checkpoint-parser.h": "a145bab7694bd237b226e3b59425a2adc547529ebd9457ab2fe67e6e1e76728f",
+    "descriptor-api.h": "2f647b36aca396985b11cb2f8bbefe12f4b87e7825880a5549867e8304f77245",
+    "descriptor-backend-v1.cpp": "78b7675b5098e0e966a6ea773cf8721643a30645367619f7f3cbd3e311b9c898",
+    "descriptor-backend.cpp": "4e30df8462b5e7e36ff812e9ce4899632f9658209d281d437d616a981749f43b",
+    "descriptor-large-steady.c": "01090cb01981800f3cd7a25392ef2bf00cd4056a36043f1670281225e1d6a8ca",
+    "descriptor-large.c": "9162cd8d665073382e424a0b9acf756627eed438beb0d4921ea627fdf4ae5e77",
+    "descriptor-steady.c": "6845b328aeba4d76c8a02fa776617a013ec27c570eff7ac744bd093e0162b0c1",
+    "descriptor.c": "05d944f7809ae1ef374df52f1a116b251e87059c29ea6959006c919bfefede16",
+    "profile-backend.cpp": "fb36cde0e521b2da175ae18f453758d30d868cd9ca323c801baca79799bb4db7",
+    "profile-front.c": "ab576e551e395f97dda675e054a20ef2b25070f85d28fdadfab99ba77d041ddb",
+    "test-backend-final.c": "42b4ce35bce05394934264d8fe99e0c1f32be45b1e91149a4ae250014331a289",
+    "test-backend.c": "f0cc901a11cf20c3705b8c04ce5f207eed5717845c7bb3fb10c0306f831cb0da",
+    "test-checkpoint.c": "49936ee9c7895c231e98ed0a996b012498328c7dc573f43e7e565c98616c22a6"
+  },
+  "artifacts": {
+    "backend.o": "6a186b34fb51047a401a5781c7a7f684929dd887b9569a7739a8ef0d78002cd5",
+    "baseline": "94d43a538dc1a16522584f46354848001ccdbb08426804a849b99382a6fdbabb",
+    "baseline.o": "7ee5cfcc3c70085cbf96e193d35e2bbe3bd1a2e2c8b3777970bd453161c6d24d",
+    "descriptor": "a132064d08382530ce2918814db64ef16056e0234f09d16235858088aa5ab260",
+    "descriptor-large": "7500a0e00a34855771271fc07a91e8e0464029f0addc40343c2c9c6dbb689fa4",
+    "descriptor-large.o": "918f5081c1166f5478f5fec0c77ec82ce0b55343014a0d50aa1f8f33d55e4731",
+    "descriptor.o": "a70cdef0331949df1ec428d18eaea6049581715080ca238ebe7a9bdb53070a73",
+    "test-backend-final": "aa354f42fd4b5dad55e5c8c274d4112d53412a3b032cd0f755b1fac776706e28",
+    "test-backend-final.o": "a65e2ebd95a2f4ac315c49a4a32fbe6d67f2294e3b73ea737b3f304115f65d73"
+  }
+}

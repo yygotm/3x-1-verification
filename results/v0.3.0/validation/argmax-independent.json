@@ -1,0 +1,60 @@
+[
+  {
+    "n": 1689,
+    "reported_steps": 88,
+    "value_after_reported_steps": "946",
+    "first_drop_step": 54,
+    "certificate_I": true,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table"
+  },
+  {
+    "n": 5505,
+    "reported_steps": 99,
+    "value_after_reported_steps": "367",
+    "first_drop_step": 40,
+    "certificate_I": true,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table"
+  },
+  {
+    "n": 54081,
+    "reported_steps": 130,
+    "value_after_reported_steps": "52850",
+    "first_drop_step": 130,
+    "certificate_I": true,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table"
+  },
+  {
+    "n": 280462342610241,
+    "reported_steps": 561,
+    "value_after_reported_steps": "295781604507115",
+    "first_drop_step": null,
+    "certificate_I": false,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table",
+    "certificate_P": true,
+    "ancestor": "197187736338077",
+    "inverse_path": "O",
+    "forward_steps": 1,
+    "ancestor_reaches_final": true
+  },
+  {
+    "n": 281442358627089,
+    "reported_steps": 467,
+    "value_after_reported_steps": "416055846281518",
+    "first_drop_step": null,
+    "certificate_I": false,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table",
+    "certificate_P": true,
+    "ancestor": "277370564187679",
+    "inverse_path": "O",
+    "forward_steps": 1,
+    "ancestor_reaches_final": true
+  },
+  {
+    "n": 4611686018427387201,
+    "reported_steps": 91,
+    "value_after_reported_steps": "2924432790059747866",
+    "first_drop_step": 91,
+    "certificate_I": true,
+    "method": "Python arbitrary precision forward steps and independent integer inverse certificate; no C table or jump table"
+  }
+]

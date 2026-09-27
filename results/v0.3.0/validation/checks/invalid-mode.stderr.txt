@@ -1,0 +1,2 @@
+SKIP_T=28
+DESC invalid initialization

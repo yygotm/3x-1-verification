@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "checks": "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4",
+  "performance": "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/performance-5tfmw4he",
+  "steady": {
+    "baseline": {
+      "median": 19.85647852,
+      "range": [
+        18.903013223,
+        21.354889195
+      ]
+    },
+    "descriptor-large": {
+      "median": 12.4383569,
+      "range": [
+        11.75456907,
+        12.956733295
+      ]
+    },
+    "speedup": 1.5963907998169757,
+    "paired_speedups": [
+      1.5963907998169757,
+      1.8167309297200802,
+      1.4589335747379062
+    ]
+  },
+  "checkpoint_resume_done_records": 1,
+  "original_unchanged": true,
+  "protected_unchanged": true
+}

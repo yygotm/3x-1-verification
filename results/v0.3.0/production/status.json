@@ -1,0 +1,39 @@
+{
+  "phase": "complete",
+  "unity_at_start": false,
+  "lo": 281474976710656,
+  "hi": 1125899906842624,
+  "cpu_cores": 8,
+  "omp_threads": 16,
+  "gpu": true,
+  "checkpoint_chunk": 4096,
+  "expected_front": 656074,
+  "expected_chunks": 161,
+  "updated_at": "2026-09-27T07:45:29.329400+00:00",
+  "command": [
+    "taskset",
+    "-c",
+    "0-15",
+    "/mnt/c/Users/81909/Projects/3xm1-release/results/gpu-descriptor-fixed-20260927-1312/checks-7f_erxr4/descriptor-large",
+    "281474976710656",
+    "1125899906842624",
+    "0",
+    "26",
+    "10",
+    "16",
+    "4096",
+    "/mnt/c/Users/81909/Projects/3xm1-release/results/v030-production-20260927-1346/production.log"
+  ],
+  "environment": {
+    "OMP_NUM_THREADS": "16",
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_PROC_BIND": "FALSE",
+    "LD_LIBRARY_PATH": "/opt/rocm/core-10.0/lib:/opt/rocm/lib:/usr/lib/wsl/lib"
+  },
+  "started_at": "2026-09-27T05:06:08.909116+00:00",
+  "pid": 433,
+  "completed_chunks": 161,
+  "elapsed_wall_seconds": 9560.037846112999,
+  "exit_code": 0,
+  "wall_seconds": 9560.908480372
+}
