@@ -1,3 +1,26 @@
+# v0.4.0 — Verification extended to Y₀ = 4,524,254,009,935,345
+
+This release adds two CPU verification runs of the unchanged `verify2.c`
+(SHA-256 67f6b14ac9538aba5e72a8a7d51856e114da97cbfac8e01f8747c06244818e63),
+built in the pinned Docker image of the earlier AMD runs
+(sha256:fde54a7328d6517ee95557e353b157b09637ea2a0628ee2ff509779a8114b3df)
+on a Ryzen 7 5700X, with mode=0 F=26 L=10 LEAFN=16 chunk=256:
+
+- [2^50, 2^52): exit 0, 2563/2563 chunks, fails=0, 1,688,849,860,263,936 odd
+  starting values exactly accounted for, maxsteps=749 at n=2,231,162,091,855,129,
+  summed chunk time 30,344.484 s.
+- [2^52, Y₀) with Y₀ = 4,524,254,009,935,345: exit 0, 2563/2563 chunks,
+  fails=0, 10,327,191,282,424 odd starting values exactly accounted for,
+  maxsteps=604 at n=4,512,101,545,839,377, summed chunk time 276.159 s.
+
+Together with the archived runs, the demonstrated range is now
+1 <= n < Y₀ (about 1.0046 · 2^52). No verifier source, build procedure or
+earlier measurement record is changed. This finite verification does not prove
+the 3x-1 conjecture. The CPU+GPU extension of v0.3.x was not used.
+
+- v0.4.0 version DOI: https://doi.org/10.5281/zenodo.23047609
+- All-versions DOI: https://doi.org/10.5281/zenodo.22962036
+
 # v0.3.1 — Citation metadata correction
 
 This documentation-only patch supplies the v0.3.1 Zenodo DOI in

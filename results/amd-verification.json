@@ -61,6 +61,44 @@
       "sum_chunk_seconds": 6654.788,
       "log": "amd-ryzen7-5700x-2p48-to-2p50.txt",
       "log_sha256": "3e6cd429926de70125373b3ddaa39935eefcc9be4af6c61a7a186912dba14548"
+    },
+    {
+      "lo": 1125899906842624,
+      "hi_exclusive": 4503599627370496,
+      "mode": 0,
+      "F": 26,
+      "L": 10,
+      "LEAFN": 16,
+      "checkpoint_chunk": 256,
+      "exit_code": 0,
+      "completed_chunks": 2563,
+      "odd_starts": 1688849860263936,
+      "accounted_odd_starts": 1688849860263936,
+      "fails": 0,
+      "maxsteps": 749,
+      "argmax": 2231162091855129,
+      "sum_chunk_seconds": 30344.484,
+      "log": "amd-ryzen7-5700x-2p50-to-2p52.txt",
+      "log_sha256": "798da9afd070f111aeb0a3031e6427617cda621c2f1173e0c5822a3e80c4488e"
+    },
+    {
+      "lo": 4503599627370496,
+      "hi_exclusive": 4524254009935345,
+      "mode": 0,
+      "F": 26,
+      "L": 10,
+      "LEAFN": 16,
+      "checkpoint_chunk": 256,
+      "exit_code": 0,
+      "completed_chunks": 2563,
+      "odd_starts": 10327191282424,
+      "accounted_odd_starts": 10327191282424,
+      "fails": 0,
+      "maxsteps": 604,
+      "argmax": 4512101545839377,
+      "sum_chunk_seconds": 276.159,
+      "log": "amd-ryzen7-5700x-2p52-to-floor.txt",
+      "log_sha256": "dbda730bf962abba88adbd62da14790014fc3292a958f773cf7ca520a527a0c6"
     }
   ]
 }

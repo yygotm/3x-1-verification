@@ -4,11 +4,12 @@ This repository provides `verify2.c`, a computational verifier designed to check
 large ranges of the positive 3x−1 map efficiently. It uses affine class bounds and
 reverse-path pruning to avoid tracing every starting value individually. The
 author's production runs with this verifier collectively covered every
-1 ≤ n < 2^50: a full run over 1 ≤ n < 2^48 followed by an extension run over
-2^48 ≤ n < 2^50. This extends the 2^44 range reported by Cochin (2026).
+1 ≤ n < Y₀ = 4,524,254,009,935,345 (about 1.0046 · 2^52): a full run over
+1 ≤ n < 2^48 followed by extension runs over 2^48 ≤ n < 2^50, 2^50 ≤ n < 2^52
+and 2^52 ≤ n < Y₀. This extends the 2^44 range reported by Cochin (2026).
 
-Version 0.3.1 updates citation metadata only. Verifier sources and measurement
-records are unchanged from v0.3.0.
+Version 0.4.0 adds the two extension runs above 2^50. Verifier sources are
+unchanged from v0.3.0.
 
 ## Background
 
@@ -19,7 +20,7 @@ Cochin, P. (2026), "Lower Bounds for Cycle Lengths in the Juggler Map"
 (Zenodo, DOI: 10.5281/zenodo.22865237, v1.0.2), reports in Remark 5.20 (p. 64)
 the author's own verification that every 1 ≤ n < 2^44 reaches 1, 5 or 17. The paper
 states that its author found no published verification floor for the 3x−1 map. This
-repository reports an independent extension to all 1 ≤ n < 2^50. A broader
+repository reports an independent extension to all 1 ≤ n < Y₀ = 4,524,254,009,935,345. A broader
 prior-work search is in progress.
 
 ## Verifier design and performance
@@ -65,9 +66,11 @@ existing upper interval. It does not extend the demonstrated range to 2^52.
 | 2^46 | done | verified with `verify2.c` in this repo |
 | 2^48 | done | AMD full run with `verify2.c`: chunks=2563/2563, maxsteps=734 at n=105343905708261 ([log](results/amd-ryzen7-5700x-2p48.txt)) |
 | 2^50 | done | AMD extension run over [2^48, 2^50): chunks=2563/2563, fails=0, maxsteps=838 at n=588127695714561 ([log](results/amd-ryzen7-5700x-2p48-to-2p50.txt)) |
+| 2^52 | done | AMD extension run over [2^50, 2^52): chunks=2563/2563, fails=0, maxsteps=749 at n=2231162091855129 ([log](results/amd-ryzen7-5700x-2p50-to-2p52.txt)) |
+| Y₀ = 4,524,254,009,935,345 | done | AMD extension run over [2^52, Y₀): chunks=2563/2563, fails=0, maxsteps=604 at n=4512101545839377 ([log](results/amd-ryzen7-5700x-2p52-to-floor.txt)) |
 
-The full 2^48 run and the extension run together account for all
-562,949,953,421,312 odd starting values below 2^50. Run parameters and SHA-256
+The full 2^48 run and the three extension runs together account for all
+2,262,127,004,967,672 odd starting values below Y₀. Run parameters and SHA-256
 hashes are recorded in [the verification manifest](results/amd-verification.json).
 No counterexample (an n that fails to reach any of the three cycles) was found
 in this finite range.
@@ -119,26 +122,27 @@ the [MIT License](LICENSE).
 
 Development, code review, and verification tooling were carried out with the
 assistance of Claude (Anthropic; Claude Fable 5.1, Claude Opus 5.5, and Claude
-Sonnet 5, across different stages of the work). Documentation, public release
+Sonnet 5 and 5.5, across different stages of the work). Documentation, public release
 preparation, and archive checks were assisted by Codex (OpenAI). The author
 directed the methodology, reviewed all results, and is solely responsible for
 the content.
 
 ## Citation
 
-The v0.3.1 release has Zenodo DOI
-[10.5281/zenodo.22994318](https://doi.org/10.5281/zenodo.22994318).
+The v0.4.0 release has Zenodo DOI
+[10.5281/zenodo.23047609](https://doi.org/10.5281/zenodo.23047609).
 To cite this version:
 
 > Shimizu, H. (2026). *Efficient computational verifier for the 3x-1 map*
-> (Version 0.3.1) [Computer software]. Zenodo.
-> https://doi.org/10.5281/zenodo.22994318
+> (Version 0.4.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.23047609
 
 All versions: https://doi.org/10.5281/zenodo.22962036
 
 Source code: https://github.com/yygotm/3x-1-verification
 
 Previous releases:
+- v0.3.1: https://doi.org/10.5281/zenodo.22994318
 - v0.3.0: https://doi.org/10.5281/zenodo.22993052
 - v0.2.0: https://doi.org/10.5281/zenodo.22968237
 - v0.1.0: https://doi.org/10.5281/zenodo.22962037
