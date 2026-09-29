@@ -55,8 +55,8 @@ This ratio applies to that partial interval; a same-conditions whole-range
 CPU/GPU ratio was not measured. Full evidence is in
 [results/v0.3.0](results/v0.3.0/README.md).
 
-This release adds a GPU implementation and a repeated verification of the
-existing upper interval. It does not extend the demonstrated range to 2^52.
+The v0.3.0 release added a GPU implementation and a repeated verification
+of the existing upper interval; it did not extend the demonstrated range.
 
 ## Demonstrated verification range
 
